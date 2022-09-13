@@ -1,0 +1,115 @@
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("https://imgv3.fotor.com/images/videoImage/Background_banner.png");
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.content .textBox h2 {
+  font-size: 85px;
+  color: #f9f8dd;
+}
+
+.content .textBox p {
+  color: #fff;
+  font-size: 22px;
+}
+
+.margin-left {
+  margin-left: 15px !important;
+}
+
+.button1 {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #f9f8dd;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+section span {
+  background: #009688;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.button1:hover section span {
+  width: 100%;
+}
+
+.button1:hover {
+  border: none;
+}
+
+.carousel.slide {
+  margin-top: 50px;
+}
+
+.carousel-inner {
+  width: 75%;
+  height: 50%;
+}
+.navbar {
+  background-color: #f9f8dd;
+}
+.nav-item a {
+  color: black;
+}
+.navbar-brand {
+  color: black;
+  font-family: "Brush Script MT";
+}
+
+.navbarbottom {
+  overflow: hidden;
+  background-color: #333;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbarbottom a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 17px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbarbottom a:hover {
+  background: #f1f1f1;
+  color: black;
+}
